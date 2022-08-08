@@ -1,0 +1,57 @@
+
+body {
+	margin: 0px;
+    background-color:rgb(223, 223, 223);
+    font-family: “Arial Bold”, sans-serif; 
+}
+
+.header {
+	display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-family: “Arial Bold”, sans-serif; 
+    margin: 5px;
+    font-size: 20px;
+}
+.post {
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    position: relative;
+    align-items: stretch;
+    vertical-align: baseline;
+    justify-content: center !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    background-color: white;
+}
+.post-header {
+    display: flex;
+}
+.post-header h6{
+    margin: 4px;
+    width: 380px;
+}
+.post-header small{
+    margin: 4px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.292);
+}
+.post img {
+        height: 400px;
+        vertical-align: top;
+        width: 400px;
+        display: block;
+        margin: 0px auto;
+}
+.post-footer {
+    margin: 9px;
+    font-size: 11px;
+}
